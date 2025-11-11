@@ -1,27 +1,65 @@
-# Gym
+# Gym Management System (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+## Overview
+Gym Management System is an advanced Angular-based platform for managing fitness center operations. Designed for scalability and efficiency, the application empowers administrators, trainers, and members with modern tools for scheduling, user management, and real-time monitoring.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Key Features
+- **Modern Angular Architecture:** Built with modular components, services, and routing, ready for enterprise needs.
+- **Scalability:** Easily supports hundreds/thousands of members, trainers, and classes.
+- **User Management:** Full CRUD for members, trainers, schedules, and more.
+- **Class Scheduling:** Create, update, and manage group and personal training sessions.
+- **Responsive Design:** Optimized for desktop and mobile devices.
+- **Secure Data Handling:** Authentication and authorization flows to protect user and business data.
+- **Easy Integration:** Configurable with external systems through standard REST APIs.
+- **Configuration Files:** Flexible setup via angular.json, package.json, and TypeScript configs.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Folder Structure
 
-## Build
+```
+src/               # Application source code (modules, components, services)
+public/            # Static assets
+.vscode/           # Editor configuration
+angular.json       # Main Angular CLI configuration
+package.json       # Dependencies and scripts
+tsconfig*.json     # TypeScript configuration files
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm (Node package manager)
+- Angular CLI (recommended: npm install -g @angular/cli)
 
-## Running end-to-end tests
+### Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Tovi-Kuperman/Gym-mangement-system-Angular.git
+   cd Gym-mangement-system-Angular
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Running the Application
+```bash
+ng serve
+```
+Open the browser at http://localhost:4200
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Documentation
+Configuration details are available in the angular.json and TypeScript config files. For API usage and integration, see the service files inside src/app/services.
+
+---
+
+## License
+No license specified.
